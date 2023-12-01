@@ -1,11 +1,17 @@
+import App from './App';
+import Image from './Images';
+
 function CitationCard(props) {
   return (
-    <div className="bg-light border p-4 m-2">
-      <h4>{props.citation.title}</h4>
-      <p>{props.citation.author}</p>
-      <p>{props.citation.source}</p>
-      <p>{props.citation.license}</p>
-    </div>
+    <section className="citationList ">
+      <article className="citation">
+        <Image />
+        <h4>{props.citation.title}</h4>
+        <p>{props.citation.author}</p>
+        <p>{props.citation.source}</p>
+        <p>{props.citation.license}</p>
+      </article>
+    </section>
   );
 }
 

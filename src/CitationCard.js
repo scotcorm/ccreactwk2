@@ -1,6 +1,4 @@
 import App from './App';
-// import Image from './Images';
-// import img1 from './Images2';
 
 function CitationCard(props) {
   return (

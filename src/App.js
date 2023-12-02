@@ -1,6 +1,7 @@
 import './App.css';
 import CitationCard from './CitationCard';
-import Image from './Images';
+import img1 from './img/noun-robot-maid-2838673.png';
+import img2 from './img/stageDesign.jpg';
 
 const citationList = [
   {
@@ -11,7 +12,7 @@ const citationList = [
     sourceUrl: 'https://thenounproject.com/icon/robot-maid-2838673/',
     license: 'CC BY 3.0',
     licenseUrl: 'https://creativecommons.org/licenses/by/3.0/',
-    img: './img/noun-robot-maid-2838673.png',
+    img: img1,
   },
   {
     id: 1,
@@ -22,7 +23,7 @@ const citationList = [
       'https://www.si.edu/object/stage-design-architectural-perspective:chndm_1938-88-2618',
     license: 'CC0',
     licenseUrl: 'https://creativecommons.org/licenses/by/3.0/',
-    img: './stageDesign.jpg',
+    img: img2,
   },
   {
     id: 2,

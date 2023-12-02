@@ -1,5 +1,5 @@
-import image2 from './img/stageDesign.jpg';
+// import image2 from './img/stageDesign.jpg';
 
-const Image2 = () => <img src={image2} alt="image" />;
+// const Image2 = () => <img src={image2} alt="image" />;
 
-export default Image2;
+// export default Image2;

@@ -1,60 +1,55 @@
+import { useState } from 'react';
+import CitationCard from './components/CitationCard';
+import { TEST_CITATIONS } from './TEST_CITATIONS';
 import './App.css';
-import CitationCard from './CitationCard';
-import img1 from './img/noun-robot-maid-2838673.png';
-import img2 from './img/stageDesign.jpg';
-
-const citationList = [
-  {
-    id: 0,
-    title: 'robot maid',
-    author: 'Vinzence Studio',
-    source: 'Noun Project',
-    sourceUrl: 'https://thenounproject.com/icon/robot-maid-2838673/',
-    license: 'CC BY 3.0',
-    licenseUrl: 'https://creativecommons.org/licenses/by/3.0/',
-    img: img1,
-  },
-  {
-    id: 1,
-    title: 'Stage Design...',
-    author: null,
-    source: 'Cooper Hewitt, Smithsonian Design Museum',
-    sourceUrl:
-      'https://www.si.edu/object/stage-design-architectural-perspective:chndm_1938-88-2618',
-    license: 'CC0',
-    licenseUrl: 'https://creativecommons.org/licenses/by/3.0/',
-    img: img2,
-  },
-  {
-    id: 2,
-    title: 'robot maid3',
-    author: 'Vinzence Studio',
-    source: 'Noun Project',
-    sourceUrl: 'https://thenounproject.com/icon/robot-maid-2838673/',
-    license: 'CC BY 3.0',
-    licenseUrl: 'https://creativecommons.org/licenses/by/3.0/',
-    img: './img/stageDesign.jpg',
-  },
-  {
-    id: 3,
-    title: 'robot maid4',
-    author: 'Vinzence Studio',
-    source: 'Noun Project',
-    sourceUrl: 'https://thenounproject.com/icon/robot-maid-2838673/',
-    license: 'CC BY 3.0',
-    licenseUrl: 'https://creativecommons.org/licenses/by/3.0/',
-    img: 'https://media.npr.org/chrome_svg/npr-logo.svg',
-  },
-];
+import Homepage from './components/HomePage';
+import RandomPage from './components/RandomPage';
+// import { Route } from 'react-router';
+import { Link, Route, Routes } from 'react-router-dom';
+import CitationDetails from './components/CitationDetails';
 
 function App() {
+  const [citationList, setCitationList] = useState(TEST_CITATIONS);
+
   return (
     <div>
       <h1>My Citation Records</h1>
-      <div className="citationList">
-        {citationList.map((c) => (
-          <CitationCard citation={c} />
-        ))}
+      <div className="nav">
+        <ul>
+          <li>
+            {' '}
+            <Link to="/" className="btn-link me-3">
+              Main Citation Page
+            </Link>
+          </li>
+          <li>
+            {' '}
+            <Link to="/random" className="btn-link">
+              A Random Record
+            </Link>
+          </li>
+        </ul>
+      </div>
+
+      {/* <Link to="/" className="btn-link me-3">
+        Home
+      </Link>
+      <Link to="/random" className="btn-link">
+        Random
+      </Link> */}
+
+      <div className="cardFilters">
+        <Routes>
+          <Route path="/" element={<Homepage citationList={citationList} />} />
+          <Route
+            path="/random"
+            element={<RandomPage citationList={citationList} />}
+          />
+          <Route
+            path="/citations/:citationId"
+            element={<CitationDetails citationList={citationList} />}
+          />
+        </Routes>
       </div>
     </div>
   );

@@ -14,9 +14,9 @@ export default function CitationPage({ citationList }) {
     <div>
       <div>
         <h3>{citation.title}</h3>
-        <p>{citation.creator}</p>
-        <p>{citation.source}</p>
-        <p>{citation.license}</p>
+        <p>by: {citation.creator}</p>
+        <p>source: {citation.source}</p>
+        <p>is licensed: {citation.license}</p>
       </div>
     </div>
   );

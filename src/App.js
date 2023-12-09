@@ -4,6 +4,7 @@ import { TEST_CITATIONS } from './TEST_CITATIONS';
 import './App.css';
 import Homepage from './components/HomePage';
 import RandomPage from './components/RandomPage';
+import LicenseInfo from './components/LicenseInfo';
 
 import { Link, Route, Routes } from 'react-router-dom';
 import CitationDetails from './components/CitationDetails';
@@ -26,13 +27,13 @@ function App() {
             <Nav.Link as={Link} to='/random'>
               A Random Record
             </Nav.Link>
-            {/* <Nav.Link as={Link} to='/LicenseInfo'>
+            <Nav.Link as={Link} to='/LicenseInfo'>
               Information about Licenses
-            </Nav.Link> */}
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
-      <h1>My Citation Records</h1>
+      {/* <h1>My Citation Records</h1> */}
       {/* <div className='nav'>
         <ul>
           <li>
@@ -57,7 +58,7 @@ function App() {
         Random
       </Link> */}
 
-      <div className='cardFilters'>
+      <div>
         <Routes>
           <Route path='/' element={<Homepage citationList={citationList} />} />
           <Route
@@ -68,6 +69,7 @@ function App() {
             path='/citations/:citationId'
             element={<CitationDetails citationList={citationList} />}
           />
+          <Route path='/LicenseInfo' element={<LicenseInfo />} />
         </Routes>
       </div>
     </div>

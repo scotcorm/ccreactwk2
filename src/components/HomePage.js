@@ -13,27 +13,27 @@ export default function HomePage({ citationList }) {
   }
   return (
     <div>
-      <div>
+      <div className='cardFilters'>
         <button
-          className="btn btn-primary me-2"
+          className='btn btn-primary me-2'
           onClick={() => setLicenseFilter('All')}
         >
           All
         </button>
         <button
-          className="btn btn-primary me-2"
+          className='btn btn-primary me-2'
           onClick={() => setLicenseFilter('CC0')}
         >
           CC0
         </button>
         <button
-          className="btn btn-primary"
+          className='btn btn-primary'
           onClick={() => setLicenseFilter('CC BY 3.0')}
         >
           CC BY 3.0
         </button>
       </div>
-      <div className="citationList">
+      <div className='citationList'>
         {filteredCitations.map((c) => (
           <CitationCard citation={c} />
         ))}

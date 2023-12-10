@@ -109,6 +109,60 @@ const LicenseInfo = () => {
             frameborder='0'
             title='What is Creative Commons?'
           ></iframe>
+
+          <b>References</b>
+          <div class='references'>
+            image:{' '}
+            <a href='https://thenounproject.com/search/?q=creative%20commons&i=1947635'>
+              copyright by Vectorstall
+            </a>{' '}
+            from <a href='https://thenounproject.com/'>the Noun Project</a>,
+            licensed{' '}
+            <a href='https://creativecommons.org/licenses/by/3.0/us/legalcode'>
+              CC BY 3.0
+            </a>
+            .
+          </div>
+
+          <div class='references'>
+            1. from:{' '}
+            <a href='https://certificates.creativecommons.org/cccertedu/'>
+              Creative Commons Certificate for Educators and Librarians
+            </a>{' '}
+            Unit 1.1, The Story of Creative Commons, by Creative Commons,
+            licensed{' '}
+            <a href='https://creativecommons.org/licenses/by/4.0/legalcode'>
+              {' '}
+              Creative Commons Attribution 4.0 International License
+            </a>
+          </div>
+
+          <div class='references'>
+            2. from:{' '}
+            <a href='https://certificates.creativecommons.org/cccertedu/'>
+              Creative Commons Certificate for Educators and Librarians
+            </a>{' '}
+            Unit 1.1, Enter Creative Commons, by Creative Commons, licensed{' '}
+            <a href='https://creativecommons.org/licenses/by/4.0/legalcode'>
+              Creative Commons Attribution 4.0 International License
+            </a>
+          </div>
+
+          <div class='references'>
+            3. from:{' '}
+            <a href='https://certificates.creativecommons.org/cccertedu/'>
+              Creative Commons Certificate for Educators and Librarians
+            </a>{' '}
+            Unit 1.2, Supporting the movement, by Creative Commons, licensed{' '}
+            <a href='https://creativecommons.org/licenses/by/4.0/legalcode'>
+              Creative Commons Attribution 4.0 International License{' '}
+            </a>
+          </div>
+
+          <div class='references'>
+            3. Knightlab: for{' '}
+            <a href='https://timeline.knightlab.com/'>TimelineJS</a>
+          </div>
         </div>
       </div>
     </div>

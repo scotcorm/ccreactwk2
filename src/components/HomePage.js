@@ -13,6 +13,9 @@ export default function HomePage({ citationList }) {
   }
   return (
     <div>
+      <h1 className='alfa title-headline tracked-tight'>
+        Main Page: Citation List
+      </h1>
       <div className='cardFilters'>
         <button
           className='btn btn-primary me-2'

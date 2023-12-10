@@ -11,12 +11,29 @@ export default function CitationPage({ citationList }) {
   }
 
   return (
-    <div>
-      <div>
-        <h3>{citation.title}</h3>
+    <div className='citation-card'>
+      <div className='container'>
+        <h3>
+          <b>{citation.title}</b>
+        </h3>
         <p>by: {citation.creator}</p>
-        <p>source: {citation.source}</p>
-        <p>is licensed: {citation.license}</p>
+        <p>
+          is from: {citation.source}, at {citation.sourceUrl}
+        </p>
+        <p>
+          and is licensed via: {citation.license}, at {citation.licenseUrl}
+        </p>
+        <p>Derivative of: {citation.title2}</p>
+        <p>
+          from: {citation.source2}, at {citation.sourceUrl2}, licensed via:{' '}
+          {citation.license2}, at {citation.licenseUrl2}
+        </p>
+        <p>And: {citation.title3}</p>
+        <p>
+          from: {citation.source3}, at {citation.sourceUrl3}, licensed via:{' '}
+          {citation.license3}, at {citation.licenseUrl3}
+        </p>
+        <p>Changed “Maze Motif” by desaturating it and adding filter.</p>
       </div>
     </div>
   );

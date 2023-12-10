@@ -17,9 +17,7 @@ function App() {
     <div>
       <Navbar className='nav' bg='light' data-bs-theme='light'>
         <Container>
-          <Navbar.Brand as={Link} to='/'>
-            Citation Records
-          </Navbar.Brand>
+          <Navbar.Brand>Citation Records</Navbar.Brand>
           <Nav className='me-auto'>
             <Nav.Link as={Link} to='/'>
               Main Page

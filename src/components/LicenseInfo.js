@@ -17,7 +17,13 @@ const LicenseInfo = () => {
             </p>
           </div>
           <div class='col-md-5'>
-            <img src={img3} width='450' height='400' class='img-fluid' />
+            <img
+              src={img3}
+              alt='Created by Vectorstall from Noun Project'
+              width='450'
+              height='400'
+              class='img-fluid'
+            />
           </div>
         </div>
 
@@ -101,6 +107,7 @@ const LicenseInfo = () => {
             mozallowfullscreen
             allowfullscreen
             frameborder='0'
+            title='What is Creative Commons?'
           ></iframe>
         </div>
       </div>

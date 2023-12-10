@@ -6,7 +6,11 @@ export default function RandomPage({ citationList }) {
       <div container-fluid>
         <h5>Featured Image:</h5>
         <h2>{randomCitation.title}</h2>
-        <img src={randomCitation.img} class='img-fluid' />
+        <img
+          src={randomCitation.img}
+          alt={randomCitation.title}
+          class='img-fluid'
+        />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import CitationCard from './components/CitationCard';
+
 import { TEST_CITATIONS } from './TEST_CITATIONS';
 import './App.css';
 import Homepage from './components/HomePage';
@@ -11,7 +11,7 @@ import CitationDetails from './components/CitationDetails';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 
 function App() {
-  const [citationList, setCitationList] = useState(TEST_CITATIONS);
+  const [citationList] = useState(TEST_CITATIONS);
 
   return (
     <div>

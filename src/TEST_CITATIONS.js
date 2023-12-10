@@ -18,7 +18,7 @@ export const TEST_CITATIONS = [
   {
     id: 1,
     title: 'Stage Design: Architectural Perspective',
-    creator: '',
+    creator: 'unknown',
     source: 'Cooper Hewitt, Smithsonian Design Museum',
     sourceUrl:
       'https://www.si.edu/object/stage-design-architectural-perspective:chndm_1938-88-2618',
@@ -53,7 +53,7 @@ export const TEST_CITATIONS = [
     title: 'Minnows in a Maze',
     creator: 'Scott Cormier',
     source: 'this site',
-    sourceUrl: '',
+    sourceUrl: './img/minnowsInAMaze.jpg',
     license: 'CC BY 3.0',
     licenseUrl: 'http://creativecommons.org/licenses/by/4.0/',
     title2: 'Maze Motif',
@@ -69,6 +69,7 @@ export const TEST_CITATIONS = [
     sourceUrl3: 'https://www.si.edu/about/natural-history-museum',
     license3: 'CC0',
     licenseUrl3: 'https://www.si.edu/Termsofuse',
+    notes: 'Changed “Maze Motif” by desaturating it and adding filter.',
     img: img5,
   },
 ];

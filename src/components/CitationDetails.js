@@ -23,17 +23,17 @@ export default function CitationPage({ citationList }) {
         <p>
           and is licensed via: {citation.license}, at {citation.licenseUrl}
         </p>
-        <p>Derivative of: {citation.title2}</p>
+        <p>Additional Information/Derived from: </p>
+        <p>{citation.title2}</p>
         <p>
-          from: {citation.source2}, at {citation.sourceUrl2}, licensed via:{' '}
-          {citation.license2}, at {citation.licenseUrl2}
+          {citation.source2} {citation.sourceUrl2} {citation.license2}
+          {citation.licenseUrl2}
         </p>
-        <p>And: {citation.title3}</p>
+        <p> {citation.title3}</p>
         <p>
-          from: {citation.source3}, at {citation.sourceUrl3}, licensed via:{' '}
-          {citation.license3}, at {citation.licenseUrl3}
+          {citation.source3} {citation.sourceUrl3} {citation.license3}{' '}
+          {citation.licenseUrl3}
         </p>
-        <p>Changed “Maze Motif” by desaturating it and adding filter.</p>
       </div>
     </div>
   );

@@ -79,15 +79,6 @@ const LicenseInfo = () => {
           </p>
 
           <p>
-            {' '}
-            from: "https://certificates.creativecommons.org/cccertedu/" Creative
-            Commons Certificate for Educators and Librarians Unit 1.1, Enter
-            Creative Commons, by Creative Commons, licensed
-            href="https://creativecommons.org/licenses/by/4.0/legalcode"
-            Creative Commons Attribution 4.0 International License
-          </p>
-
-          <p>
             Creative Commons has become a standard tool in a community of users
             who are interested in supporting sharing and collaboration. A
             movement is growing, and those who would like to get involved in the{' '}

@@ -14,6 +14,7 @@ export const TEST_CITATIONS = [
     license: 'CC BY 3.0',
     licenseUrl: 'https://creativecommons.org/licenses/by/3.0/',
     img: img1,
+    title2: 'N/A',
   },
   {
     id: 1,
@@ -25,6 +26,7 @@ export const TEST_CITATIONS = [
     license: 'CC0',
     licenseUrl: 'https://creativecommons.org/licenses/by/3.0/',
     img: img2,
+    title2: 'N/A',
   },
   {
     id: 2,
@@ -36,6 +38,7 @@ export const TEST_CITATIONS = [
     license: 'CC0',
     licenseUrl: 'https://www.si.edu/Termsofuse',
     img: img4,
+    title2: 'N/A',
   },
   {
     id: 3,
@@ -47,15 +50,16 @@ export const TEST_CITATIONS = [
     license: 'CC0',
     licenseUrl: 'https://www.si.edu/Termsofuse',
     img: img3,
+    title2: 'N/A',
   },
   {
     id: 4,
     title: 'Minnows in a Maze',
     creator: 'Scott Cormier',
     source: 'this site',
-    sourceUrl: './img/minnowsInAMaze.jpg',
+    sourceUrl: '<img src="./img/minnowsInAMaze.jpg"/>',
     license: 'CC BY 3.0',
-    licenseUrl: 'http://creativecommons.org/licenses/by/4.0/',
+    licenseUrl: 'http://creativecommons.org/licenses/by/3.0/',
     title2: 'Maze Motif',
     creator2: '',
     source2: 'Cooper Hewitt, Smithsonian Design Museum',

@@ -18,21 +18,44 @@ export default function CitationPage({ citationList }) {
         </h3>
         <p>by: {citation.creator}</p>
         <p>
-          is from: {citation.source}, at {citation.sourceUrl}
+          is from: {citation.source}, at{' '}
+          <i>
+            <u>{citation.sourceUrl}</u>
+          </i>
         </p>
         <p>
-          and is licensed via: {citation.license}, at {citation.licenseUrl}
+          and is licensed via: {citation.license}, at{' '}
+          <i>
+            <u>{citation.licenseUrl}</u>
+          </i>
         </p>
         <p>Additional Information/Derived from: </p>
-        <p>{citation.title2}</p>
         <p>
-          {citation.source2} {citation.sourceUrl2} {citation.license2}
-          {citation.licenseUrl2}
+          <h5>{citation.title2}</h5>
         </p>
-        <p> {citation.title3}</p>
         <p>
-          {citation.source3} {citation.sourceUrl3} {citation.license3}{' '}
-          {citation.licenseUrl3}
+          {citation.source2}{' '}
+          <i>
+            <u>{citation.sourceUrl2}</u>
+          </i>{' '}
+          {citation.license2}
+          <i>
+            <u>{citation.licenseUrl2}</u>
+          </i>
+        </p>
+        <p>
+          {' '}
+          <h5>{citation.title3}</h5>
+        </p>
+        <p>
+          {citation.source3}{' '}
+          <i>
+            <u>{citation.sourceUrl3}</u>
+          </i>{' '}
+          {citation.license3}{' '}
+          <u>
+            <i>{citation.licenseUrl3}</i>
+          </u>
         </p>
       </div>
     </div>

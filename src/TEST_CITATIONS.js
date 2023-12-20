@@ -14,7 +14,7 @@ export const TEST_CITATIONS = [
     license: 'CC BY 3.0',
     licenseUrl: 'https://creativecommons.org/licenses/by/3.0/',
     img: img1,
-    title2: 'N/A',
+    derivedFrom: 'N/A',
   },
   {
     id: 1,
@@ -26,7 +26,7 @@ export const TEST_CITATIONS = [
     license: 'CC0',
     licenseUrl: 'https://creativecommons.org/licenses/by/3.0/',
     img: img2,
-    title2: 'N/A',
+    derivedFrom: 'N/A',
   },
   {
     id: 2,
@@ -38,7 +38,7 @@ export const TEST_CITATIONS = [
     license: 'CC0',
     licenseUrl: 'https://www.si.edu/Termsofuse',
     img: img4,
-    title2: 'N/A',
+    derivedFrom: 'N/A',
   },
   {
     id: 3,
@@ -50,30 +50,19 @@ export const TEST_CITATIONS = [
     license: 'CC0',
     licenseUrl: 'https://www.si.edu/Termsofuse',
     img: img3,
-    title2: 'N/A',
+    derivedFrom: 'N/A',
   },
   {
     id: 4,
     title: 'Minnows in a Maze',
     creator: 'Scott Cormier',
     source: 'this site',
-    sourceUrl: '<img src="./img/minnowsInAMaze.jpg"/>',
+    sourceUrl:
+      'https://citation-list-project.netlify.app/static/media/minnowsInAMaze.2af11a62c70e45a7e02e.jpg',
     license: 'CC BY 3.0',
     licenseUrl: 'http://creativecommons.org/licenses/by/3.0/',
-    title2: 'Maze Motif',
-    creator2: '',
-    source2: 'Cooper Hewitt, Smithsonian Design Museum',
-    sourceUrl2:
-      'https://www.si.edu/object/maze-motif:chndm_1959-150-4?edan_q=maze&oa=1&edan_fq%5B0%5D=media_usage:CC0&destination=/search/collection-images&searchResults=1&id=chndm_1959-150-4',
-    license2: 'CC0',
-    licenseUrl2: 'https://www.si.edu/Termsofuse',
-    title3: 'Notropis louisianae',
-    creator3: 'collector: Frederick M. Chamberlain',
-    source3: 'National Museum of Natural History',
-    sourceUrl3: 'https://www.si.edu/about/natural-history-museum',
-    license3: 'CC0',
-    licenseUrl3: 'https://www.si.edu/Termsofuse',
-    notes: 'Changed “Maze Motif” by desaturating it and adding filter.',
     img: img5,
+    derivedFrom:
+      'TITLE: Maze Motif \nCREATOR/SOURCE: Cooper Hewitt, Smithsonian Design Museum \nSOURCE URL: https://www.si.edu/object/maze-motif:chndm_1959-150-4?edan_q=maze&oa=1&edan_fq%5B0%5D=media_usage:\nCC0&destination=/search/collection-images&searchResults=1&id=chndm_1959-150-4 \nLICENSE: CC0 \nLICENSE URL: https://www.si.edu/Termsofuse \nADDITIONAL NOTES: Changed “Maze Motif” by desaturating it and adding filter.\n\nAND \n\nTITLE: Notropis louisianae  \nCREATOR/SOURCE: collector: Frederick M. Chamberlain, National Museum of Natural History \nSOURCE URL: https://www.si.edu/about/natural-history-museum \nLICENSE: CC0 \nLICENSE URL: https://www.si.edu/Termsofuse ',
   },
 ];

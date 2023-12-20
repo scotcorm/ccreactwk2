@@ -31,31 +31,7 @@ export default function CitationPage({ citationList }) {
         </p>
         <p>Additional Information/Derived from: </p>
         <p>
-          <h5>{citation.title2}</h5>
-        </p>
-        <p>
-          {citation.source2}{' '}
-          <i>
-            <u>{citation.sourceUrl2}</u>
-          </i>{' '}
-          {citation.license2}
-          <i>
-            <u>{citation.licenseUrl2}</u>
-          </i>
-        </p>
-        <p>
-          {' '}
-          <h5>{citation.title3}</h5>
-        </p>
-        <p>
-          {citation.source3}{' '}
-          <i>
-            <u>{citation.sourceUrl3}</u>
-          </i>{' '}
-          {citation.license3}{' '}
-          <u>
-            <i>{citation.licenseUrl3}</i>
-          </u>
+          <p className='derived-from-style'>{citation.derivedFrom}</p>
         </p>
       </div>
     </div>

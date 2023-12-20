@@ -129,6 +129,10 @@ h1 {
   gap: 2rem;
 }
 
+.derived-from-style {
+  white-space: pre;
+}
+
 .randomCard {
   width: 80vw;
   display: grid;

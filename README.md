@@ -11,7 +11,7 @@ Also, since I'm learning about what React is capable of, I look forward to apply
 things like Breadcrumbs, linking to a database, and maybe allowing users to login to save their own records. 
 
 ## Structure
-"""
+```
 CCREACTWK2
 |--build
 |--node_modules
@@ -53,7 +53,7 @@ CCREACTWK2
 |--package.json
 |--README.md
 
-"""
+```
 
 ## Available Scripts
 

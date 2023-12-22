@@ -1,5 +1,5 @@
 # Citation Records Management App built with React
-
+see deployment at https://citation-list-project.netlify.app/
 
 ## About this Project
 Copyright is always a concern when people are sharing information online, and the citation 

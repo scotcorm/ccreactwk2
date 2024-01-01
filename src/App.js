@@ -23,7 +23,7 @@ function App() {
               Main Page
             </Nav.Link>
             <Nav.Link as={Link} to='/random'>
-              A Random Record
+              A Random Image
             </Nav.Link>
             <Nav.Link as={Link} to='/LicenseInfo'>
               Information about Licenses
